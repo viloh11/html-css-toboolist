@@ -1,7 +1,18 @@
 /* GENERAL SETTINGS */
-
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bruno+Ace&family=Open+Sans:wght@300;700&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+header{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    align-items: center;
+    padding: 10px 20px;
 }
