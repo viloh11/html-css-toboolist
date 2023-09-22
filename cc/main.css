@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #F6F8F9;
+}
+
+/* NAVBAR */
 .flex{
     display: flex;
 }
@@ -15,4 +20,48 @@ header{
     font-weight: bold;
     align-items: center;
     padding: 10px 20px;
+    background-color: white;
 }
+
+/* MAIN CONTENT*/
+.container{
+    margin: 0 auto;
+    max-width: 800px;
+    width: 100%;
+}
+
+main{
+    margin-top: 50px;
+}
+
+section{
+    background-color: white;
+    border-radius: 4px;
+}
+
+section a{
+    text-decoration: none;
+    color: #CBD0D5;
+}
+
+.btn{
+    border: 1px solid #CBD0D5;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: small;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.btn-container{
+    margin-bottom: 20px;
+    padding: 13px 50px;
+    gap: 5px;
+}
+
+.add{
+    background-color: #47ADF1;
+    border: none;
+    color: white;
+}
+
